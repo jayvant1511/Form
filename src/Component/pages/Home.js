@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import {Redirect} from 'react-router-dom';
+import './home.css';
 
 class Home extends Component {
 
@@ -41,8 +42,11 @@ class Home extends Component {
             <div className="post">
                 <h1>Create User</h1>
                 <form className="form" onSubmit={this.createUser}>
+                    <span>FirstName : </span>
                     <input required type="text" name="FirstName" placeholder="Enter FirstName"  /><br /><br />
+                    <span>SecondName : </span>
                     <input required type="text" name="LastName" placeholder="Enter LastName" /><br /><br />
+                    <span>Age : </span>
                     <input required type="number" name="Age" placeholder="Enter Age" /><br /><br />
                     <button>Create</button>
                 </form>
