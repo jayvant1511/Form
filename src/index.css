@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  margin-top: 1px;
+  padding: 18px;
+  background-color: rgb(189, 93, 93);
+  border-bottom: 1px solid black; 
+}
+
+.headerCompenent {
+  margin-left: 20px;
+}
+
+.logoutHeader {
+  position: relative;
+  float: right;
+}
+.error {
+  color: red;
+  margin-top: 5%;
+  margin-left: 5%;
+}
